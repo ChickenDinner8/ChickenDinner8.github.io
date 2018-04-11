@@ -4,6 +4,8 @@ title: 使用Travis CI 进行 CI/CD
 tags: blog
 ---
 
+15331321-wyr
+
 #### 简介
 Travis CI是一个在线的，分布式的服务。通过Travis，我们能够对Github上的项目进行持续集成（CI）和持续部署（CD）
 
