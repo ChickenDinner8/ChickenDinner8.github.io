@@ -1,14 +1,6 @@
----
-layout: post
-title: 使用Travis CI 进行 CI/CD
-tags: blog
----
-
 # 使用Travis CI 进行CI/CD
 
 ---
-
-15331321-wyr
 
 #### 简介
 Travis CI是一个在线的，分布式的服务。通过Travis，我们能够对Github上的项目进行持续集成（CI）和持续部署（CD）
@@ -98,10 +90,12 @@ after_success:
   - sshpass -e ssh $MY_SERVER /home/ubuntu/ChickenDinner/deploy.sh
 ```
 
-#### 参考资料
-Travis官方文档：https://docs.travis-ci.com/
-sshpass的用法：https://linux.die.net/man/1/sshpass
-通过ssh执行nohup的注意事项：https://askubuntu.com/questions/349262/run-a-nohup-command-over-ssh-then-disconnect
+#### 参考链接
+[Travis官方文档](https://docs.travis-ci.com/)
+
+[sshpass的用法](https://linux.die.net/man/1/sshpass)
+
+[通过ssh执行nohup的注意事项](https://askubuntu.com/questions/349262/run-a-nohup-command-over-ssh-then-disconnect)
 
 
   [1]: https://raw.githubusercontent.com/ChickenDinner8/ChickenDinner8.github.io/master/public/img/travis-how-to-use/login.PNG
