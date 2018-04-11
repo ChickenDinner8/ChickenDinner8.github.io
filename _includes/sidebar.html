@@ -2,9 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
           {{ site.description }}
-        </a>
       </h1>
     </div>
 
@@ -26,6 +24,7 @@
       {% endfor %}
     </nav>
 
+	<a class="sidebar-nav-item" href="{{ site.repo }}">GitHub project</a>
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
