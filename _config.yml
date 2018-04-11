@@ -1,5 +1,5 @@
-baseurl: /
+baseurl: '/'
 
-repo: https://github.com/ChickenDinner8/Server
+repo: 'https://github.com/ChickenDinner8/Server'
 
-description: Eat点点项目主页
+description: 'Eat点点项目主页'
