@@ -6,7 +6,7 @@
 
 ---
 
-
+[我的博客传送门](https://bowenwu1.github.io/2018/04/12/%E5%85%B3%E4%BA%8EMac%E9%85%8D%E7%BD%AEMySQLClient%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/)
 
 我们小组所确定的技术方案是Python + Django + MySQL，而我的本地环境是MacOS
 
