@@ -1,10 +1,8 @@
 ---
 layout: post
-title: 需求分析
+title: 扫码点餐系统需求分析
 tags: document
 ---
-
-# 扫码点餐系统需求分析
 
 ## 会议讨论结果
 
