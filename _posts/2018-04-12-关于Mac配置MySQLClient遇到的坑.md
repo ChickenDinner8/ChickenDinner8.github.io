@@ -1,8 +1,8 @@
 ---
-layout:post
-tags:Blog
+layout: post
+title: 关于Mac配置MySQLClient遇到的坑
+tags: blog
 ---
-
 
 
 系统分析与设计课程项目技术分享博客
@@ -10,8 +10,6 @@ tags:Blog
 团队：ChickenDinner8
 
 作者：吴博文
-
----
 
 [我的博客传送门](https://bowenwu1.github.io/2018/04/12/%E5%85%B3%E4%BA%8EMac%E9%85%8D%E7%BD%AEMySQLClient%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/)
 
