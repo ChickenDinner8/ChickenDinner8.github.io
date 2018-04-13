@@ -1,6 +1,6 @@
 ---
 layout:post
-Tags:Blog
+tags:Blog
 ---
 
 
