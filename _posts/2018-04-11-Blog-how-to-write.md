@@ -13,7 +13,7 @@ tags: blog
 ---
 layout: post  #这个不能变
 title: 你的标题 #标题在这里写就行了，不需要在正文里再写一遍
- tags : blog  #至少要有blog标签
+ tags : blog  #若是文档则写document
 ---
 ```
 
