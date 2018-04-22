@@ -8,11 +8,11 @@ tags: document
 
 ## 团队名称
 
-Eat点点
+**Eat点点**
 
 ## 团队目标
 
-打造一个好用又简洁的点菜小程序
+**打造一个好用又简洁的点菜小程序**
 
 ## 团队成员清单
 
@@ -30,7 +30,7 @@ Eat点点
 
 虽然我很傻，但是我很可爱~
 
-
+------
 
 ### 王诗佳 Jocelyn
 
@@ -46,7 +46,7 @@ Eat点点
 
 做全宇宙最美的js工程师！
 
-
+------
 
 ### 王卓君 GDSGWZJ
 
@@ -62,7 +62,7 @@ Eat点点
 
 做全宇宙最美的js工程师！
 
-
+------
 
 ### 吴林蔓 Lumman
 
@@ -78,7 +78,7 @@ Eat点点
 
 Golden water give me power！
 
-
+------
 
 ### 吴博文 Bob
 
@@ -94,7 +94,7 @@ Golden water give me power！
 
 I‘m stupid but I love learning
 
-
+------
 
 ### 吴耀荣 Rayman
 
@@ -110,7 +110,7 @@ I‘m stupid but I love learning
 
 I'm Iron man!
 
-
+------
 
 ### 杨加佳 Vita
 
@@ -126,7 +126,7 @@ I'm Iron man!
 
 我喜欢下围棋，欢迎切磋
 
-
+------
 
 ### 杨志华 DogeNick
 
