@@ -1,6 +1,6 @@
 ---
 layout: post
-title: X2.技术博客
+title: X2.技术报告
 tags: document
 ---
 
