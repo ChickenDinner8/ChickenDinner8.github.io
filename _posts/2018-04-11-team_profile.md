@@ -124,7 +124,7 @@ Peace to the world!
 
 ------
 
-### yzh DogeNick
+### yzh Nick
 
 ##### 测试工程师
 
