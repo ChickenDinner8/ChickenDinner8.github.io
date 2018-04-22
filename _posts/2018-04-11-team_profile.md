@@ -128,7 +128,7 @@ Peace to the world!
 
 ##### 测试工程师
 
-你自己编吧
+运行测试
 
 ##### 开发工程师
 
@@ -136,4 +136,4 @@ Peace to the world!
 
 ##### 宣言
 
-向左走，向右走，人生的路自己走~~
+You gotta get up and try and try and try.
