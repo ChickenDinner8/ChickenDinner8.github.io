@@ -4,20 +4,19 @@ title: 2.团队信息
 tags: document
 ---
 
+# Team Profile
 
-## Team Profile
-
-### 团队名称
+## 团队名称
 
 Eat点点
 
-### 团队目标
+## 团队目标
 
 打造一个好用又简洁的点菜小程序
 
-### 团队成员清单
+## 团队成员清单
 
-#### 王骞云 Pomelo
+### 王骞云 Pomelo
 
 ##### 客户经理
 
@@ -33,7 +32,7 @@ Eat点点
 
 
 
-#### 王诗佳 Jocelyn
+### 王诗佳 Jocelyn
 
 ##### 项目经理
 
@@ -49,7 +48,7 @@ Eat点点
 
 
 
-#### 王卓君 GDSGWZJ
+### 王卓君 GDSGWZJ
 
 ##### UI设计师
 
@@ -65,7 +64,7 @@ Eat点点
 
 
 
-#### 吴林蔓 Lumman
+### 吴林蔓 Lumman
 
 ##### 项目经理
 
@@ -81,7 +80,7 @@ Golden water give me power！
 
 
 
-#### 吴博文 Bob
+### 吴博文 Bob
 
 ##### 产品经理
 
@@ -97,7 +96,7 @@ I‘m stupid but I love learning
 
 
 
-#### 吴耀荣 Rayman
+### 吴耀荣 Rayman
 
 ##### 架构师
 
@@ -113,7 +112,7 @@ I'm Iron man!
 
 
 
-#### 杨加佳 Vita
+### 杨加佳 Vita
 
 ##### 测试工程师
 
@@ -129,7 +128,7 @@ I'm Iron man!
 
 
 
-#### 杨志华 DogeNick
+### 杨志华 DogeNick
 
 ##### 测试工程师
 
