@@ -9,7 +9,7 @@ tags: blog
 
 团队：ChickenDinner8
 
-作者：吴博文
+作者：wbw
 
 [我的博客传送门](https://bowenwu1.github.io/2018/04/12/%E5%85%B3%E4%BA%8EMac%E9%85%8D%E7%BD%AEMySQLClient%E9%81%87%E5%88%B0%E7%9A%84%E5%9D%91/)
 
@@ -54,7 +54,7 @@ Collecting mysqlclient
 首先找出config文件：
 
 ```shell
-cd /usr/local/Cellar/mysql-connector-c/6.1.11/bin 
+cd /usr/local/Cellar/mysql-connector-c/6.1.11/bin
 ```
 
 首先在修改之前备份我们想要修改的文件（以免搞坏了弄不回去了）

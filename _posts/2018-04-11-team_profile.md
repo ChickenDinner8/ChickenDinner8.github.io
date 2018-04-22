@@ -12,7 +12,7 @@ tags: document
 
 ## 团队成员清单
 
-### 王骞云 Pomelo
+### wqy Pomelo
 
 ##### 客户经理
 
@@ -28,7 +28,7 @@ tags: document
 
 ------
 
-### 王诗佳 Jocelyn
+### wsj Jocelyn
 
 ##### 项目经理
 
@@ -44,7 +44,7 @@ tags: document
 
 ------
 
-### 王卓君 GDSGWZJ
+### wzj GDSGWZJ
 
 ##### UI设计师
 
@@ -60,7 +60,7 @@ tags: document
 
 ------
 
-### 吴林蔓 Lumman
+### wlm Lumman
 
 ##### 项目经理
 
@@ -76,7 +76,7 @@ Golden water give me power！
 
 ------
 
-### 吴博文 Bob
+### wbw Bob
 
 ##### 产品经理
 
@@ -92,7 +92,7 @@ I‘m stupid but I love learning
 
 ------
 
-### 吴耀荣 Rayman
+### wyr Rayman
 
 ##### 架构师
 
@@ -108,7 +108,7 @@ I'm Iron man!
 
 ------
 
-### 杨加佳 Vita
+### yjj Vita
 
 ##### 测试工程师
 
@@ -124,7 +124,7 @@ I'm Iron man!
 
 ------
 
-### 杨志华 DogeNick
+### yzh DogeNick
 
 ##### 测试工程师
 
