@@ -4,7 +4,7 @@ title: Document
 ---
 
 <div class="posts">
-  {% assign posts = site.posts | sort: 'date' %}
+  {% assign posts = site.posts | sort: 'title' %}
   {% for post in posts %}
   {% if post.tags contains 'document' %}
   <div class="post">
