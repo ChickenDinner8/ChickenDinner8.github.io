@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>230</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>旅馆
+--
+位置
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>420</y>
+      <w>110</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>房间
+--
+类别</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>420</y>
+      <w>120</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>客户
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>280</y>
+      <w>60</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+提供</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>420</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+预订</panel_attributes>
+    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>410</x>
+      <y>200</y>
+      <w>130</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>订单
+--
+客户的电子邮箱
+预订的旅馆房间
+入住时间</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>280</y>
+      <w>170</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+记录被预订的旅馆房间</panel_attributes>
+    <additional_attributes>10.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>260</y>
+      <w>210</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..*
+记录预订旅馆的客户</panel_attributes>
+    <additional_attributes>10.0;20.0;190.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>200</y>
+      <w>100</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>账单
+--
+付款金额
+信用卡号</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>230</y>
+      <w>140</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0,1
+证明付款</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>280</y>
+      <w>200</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+付款</panel_attributes>
+    <additional_attributes>10.0;180.0;180.0;180.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>160</x>
+      <y>100</y>
+      <w>560</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+收款</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;20.0;540.0;20.0;540.0;100.0</additional_attributes>
+  </element>
+</diagram>
