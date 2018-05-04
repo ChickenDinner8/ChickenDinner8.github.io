@@ -1,80 +1,154 @@
 FORMAT: 1A
 HOST: http://polls.apiblueprint.org/
 
-# chicken
+# ChickenDinner8
 
-Polls is a simple API allowing consumers to view polls and vote in them.
+Eat点点扫码点餐系统 API初稿
 
-## Questions Collection [/questions]
+## 商家账户 [/boss]
 
-### List All Questions [GET]
+所有商家端操作都要以登录成功为前提，否则拒绝请求并跳转到登录页面
+
+### 登录 [POST]
+
++ Request (application/json)
+
+        {
+            "account": "user",
+            "password": "pwd"
+        }
+
++ Response 200 (text/html)
+
+    + Headers
+    
+            Location: /restaurant
+
+    + Body
+    
+            登录成功
+
++ Response 401 (text/html)
+
+    + Body
+    
+            账号或密码错误
+
+## 餐厅 [/restaurant]
+
+### 查看餐厅信息 [GET]
+
++ Response 200 (text/html)
+
+        餐厅信息
+
+### 修改餐厅信息 [POST]
+
++ Request (application/json)
+
+        {
+            "name": "kfc",
+            "description": "fastfood"
+        }
+
++ Response 200 (text/html)
+
+    + Body
+
+            修改成功
+
+### 餐厅菜单 [/restaurant/menu]
+
+#### 查看菜单 [GET]
+
++ Response 200 (text/html)
+
+        菜单
+
+#### 修改菜单 [POST]
+
++ Request (application/json)
+
+        {
+            "operation": "add",
+            "foodName": "shit",
+            "foodDescription": "shit"
+        }
+
++ Request (application/json)
+
+        {
+            "operation": "delete",
+            "foodName": "shit"
+        }
+
++ Request (application/json)
+
+        {
+            "operation": "edit",
+            "foodName": "shit",
+            "foodDescription": "shit"
+        }
+
++ Response 200 (text/html)
+
+    + Body
+
+            提交成功
+
+## 订单 [/restaurant/orders]
+
+### 查看订单 [GET]
+
++ Response 200 (text/html)
+
+        订单列表
+
+### 提交订单 [POST]
+
++ Request (application/json)
+
+        {
+        }
+
++ Response 201 (text/html)
+
+    + Body
+
+            提交成功
+            
+## 评论 [/restaurant/comments]
+
+### 查看评论 [GET]
+
++ Response 200 (text/html)
+
+        评论列表
+
+### 撰写评论 [POST]
+
++ Request (application/json)
+
+        {
+            "userID": "666",
+            "comment": "shit"
+        }
+
++ Response 201 (text/html)
+
+    + Body
+
+            评论成功
+            
+## 库存 [/restaurant/stock]
+
+### 获取库存 [GET]
 
 + Response 200 (application/json)
 
         [
             {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 2048
-                    }, {
-                        "choice": "Python",
-                        "votes": 1024
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 512
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 256
-                    }
-                ]
+                "foodName": "chicken",
+                "howMany" : "666"
             }
         ]
-
-### Create a New Question [POST]
-
-You may create your own question using this action. It takes a JSON
-object containing a question and a collection of answers in the
-form of choices.
-
-+ Request (application/json)
-
-        {
-            "question": "Favourite programming language?",
-            "choices": [
-                "Swift",
-                "Python",
-                "Objective-C",
-                "Ruby"
-            ]
-        }
-
-+ Response 201 (application/json)
-
-    + Headers
-
-            Location: /questions/2
-
-    + Body
-
-            {
-                "question": "Favourite programming language?",
-                "published_at": "2015-08-05T08:40:51.620Z",
-                "choices": [
-                    {
-                        "choice": "Swift",
-                        "votes": 0
-                    }, {
-                        "choice": "Python",
-                        "votes": 0
-                    }, {
-                        "choice": "Objective-C",
-                        "votes": 0
-                    }, {
-                        "choice": "Ruby",
-                        "votes": 0
-                    }
-                ]
-            }
