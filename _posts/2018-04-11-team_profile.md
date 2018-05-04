@@ -4,6 +4,9 @@ title: 2.团队信息
 tags: document
 ---
 
+* toc
+{:toc}
+
 # Team Profile
 
 ## 团队名称 - Eat点点
@@ -44,7 +47,7 @@ tags: document
 
 ------
 
-### GDSGWZJ 15331305-wzj 
+### GDSGWZJ 15331305-wzj
 
 ##### UI设计师
 
