@@ -1,0 +1,33 @@
+---
+---
+.sidebar {
+  background-color: white;
+  background-image: url('https://raw.githubusercontent.com/ChickenDinner8/ChickenDinner8.github.io/master/public/img/lun/pistachios-3283989_640.png');
+  background-repeat: no-repeat;
+  box-shadow: 1px 0px 20px #bbbbbb;
+  .container {
+    color: #353535;
+    .sidebar-about h1{
+      color: #353535;
+      font-family: Tahoma, 'Microsoft YaHei', 'STHeiti', Arial;
+      font-size: 36pt;
+    }
+    .sidebar-nav {
+      margin-top: 36px;
+    }
+    .sidebar-nav-item {
+      color: #f5cd79;
+      font-size: 15pt;
+      font-family: Tahoma, 'Microsoft YaHei', 'STHeiti', Arial;
+    }
+    > .sidebar-nav-item {
+      color: #353535;
+      font-size: 12pt;
+    }
+    .sidebar-nav-copyright {
+      color: #888888;
+      margin-top: 36px;
+      font-size: 11pt;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+---
+---
+.main-wrapper {
+  width: 100%;
+  .main-content {
+    text-align: center;
+    h1, h2 {
+      font-weight: normal;
+      color: #353535;
+      font-family: Tahoma, 'Microsoft YaHei', 'STHeiti', Arial;
+      letter-spacing: 4px;
+      text-shadow: 2px 2px 5px #bbbbbb;
+    }
+    .main-content-images {
+      margin-top: 60px;
+      > div {
+        width: 80px;
+        height: 80px;
+        margin: 20px;
+        vertical-align: middle;
+        line-height: 80px;
+        display: inline-block;
+        > img {
+          max-width: 80px;
+          max-height: 80px;
+        vertical-align: middle;
+          display: inline;
+        }
+      }
+      > div:hover {
+        transform: translateY(-10px);
+        transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s; /* Firefox 4 */
+        -webkit-transition-duration: 0.5s; /* Safari 和 Chrome */
+        -o-transition-duration: 0.5s; /* Opera */
+      }
+    }
+  }
+}
+

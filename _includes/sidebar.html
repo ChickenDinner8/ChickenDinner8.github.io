@@ -5,7 +5,8 @@
           {{ site.description }}
       </h1>
     </div>
-
+    <a class="sidebar-nav-item" href="{{ site.repo }}">GitHub project ></a>
+    
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item" href="{{ site.urlBase }}">Home</a>
 
@@ -24,7 +25,6 @@
       {% endfor %}
     </nav>
 
-	<a class="sidebar-nav-item" href="{{ site.repo }}">GitHub project</a>
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p class="sidebar-nav-copyright">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
