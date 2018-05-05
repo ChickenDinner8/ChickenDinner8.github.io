@@ -42,16 +42,18 @@ title: Home
         {{ post.title }}
       </a>
     </h2>
-	
+
   </div>
   {% endif %}
   {% endfor %}
 </div>
 
 <div markdown="1">
+
 ### markdown 测试
 
 1. fuck
 2. shit
 3. bitch
+
 </div>
