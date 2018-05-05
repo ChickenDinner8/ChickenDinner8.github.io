@@ -28,32 +28,12 @@ title: Home
   </div>
 </div>
 
-
-<div class="posts">
-    <h1>
-      文档目录
-    </h1>
-  {% assign posts = site.posts | sort: 'title' %}
-  {% for post in posts %}
-  {% if post.tags contains 'document' %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-
-  </div>
-  {% endif %}
-  {% endfor %}
-</div>
-
 <div markdown="1">
 
-### markdown 测试
+## 文档目录
 
-1. fuck
-2. shit
-3. bitch
++ 1、[about](https://chickendinner8.github.io/2018/04/15/plan.html)
++ 2、
++ 3、
 
 </div>
