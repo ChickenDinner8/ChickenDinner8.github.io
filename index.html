@@ -27,7 +27,11 @@ title: Home
   </div>
 </div>
 
+
 <div class="posts">
+    <h1>
+      文档目录
+    </h1>
   {% assign posts = site.posts | sort: 'title' %}
   {% for post in posts %}
   {% if post.tags contains 'document' %}
