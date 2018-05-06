@@ -32,8 +32,11 @@ title: Home
 
 ### 文档目录
 
-+ 1、[About](https://chickendinner8.github.io/2018/04/15/plan.html)
-+ 2、[Requirement specification(需求规格说明](https://chickendinner8.github.io/2018/04/21/需求说明书.html)
-+ 3、
++ 1、[About（项目规划）](https://chickendinner8.github.io/2018/04/15/plan.html)
++ 2、[Team profile（团队组建）](https://chickendinner8.github.io/2018/04/11/team_profile.html)
++ 3、[Investigation（项目前期调研）](https://chickendinner8.github.io/2018/04/11/investigation.html)
++ 4、[Vision（项目愿景）](https://chickendinner8.github.io/2018/04/11/vision.html)
++ 5、[Product Backlog（产品特性）](https://chickendinner8.github.io/2018/04/11/backlog.html)
++ 6、[Requirement specification（需求规格说明）](https://chickendinner8.github.io/2018/04/21/需求说明书.html)
 
 </div>
