@@ -32,8 +32,8 @@ title: Home
 
 ### 文档目录
 
-+ 1、[about](https://chickendinner8.github.io/2018/04/15/plan.html)
-+ 2、
++ 1、[About](https://chickendinner8.github.io/2018/04/15/plan.html)
++ 2、[Requirement specification(需求规格说明](https://chickendinner8.github.io/2018/04/21/需求说明书.html)
 + 3、
 
 </div>
