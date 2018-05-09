@@ -17,14 +17,18 @@ Eat点点扫码点餐系统
             "password": "password"
         }
 + Response 200 (application/json)
-    注册成功
+注册成功
+
     + Body
+    
         {
             "msg": "注册成功"
         }
 + Response 409 (application/json)
-    注册失败，可能是用户名已存在
+注册失败，可能是用户名已存在
+
     + Body
+    
         {
             "msg": "注册失败"
         }
@@ -34,15 +38,19 @@ Eat点点扫码点餐系统
 获取当前登陆用户的个人信息，若未登陆则会提示
 
 + Response 200 (application/json)
-    获取成功
+获取成功
+
     + Body
+    
         {
             "username":"username"
         }
 
 + Response 401 (application/json)
-    未登录
+未登录
+
     + Body
+    
         {
             "msg": "未登录"
         }
@@ -56,7 +64,8 @@ Eat点点扫码点餐系统
         "password": "password"
     }
 
-+ Response
++ Response 200 (application/json)
+
     {
         "username": "username"
     }
@@ -107,7 +116,7 @@ Eat点点扫码点餐系统
             "msg": "登出成功"
         }
 
-## 所有餐厅 [/restaurant]
+## 所有餐厅 [/restaurants]
 
 ### 查看旗下所有餐厅的信息 [GET]
 
@@ -148,6 +157,29 @@ Eat点点扫码点餐系统
             "description":"xxxx"
         }
 
+### 创建一个餐厅 [POST]
+
++ Request (application/json)
+    
+    + Body
+        
+        {
+            "name": "kfc",
+            "description": "fastfood"
+        }
+
++ Response 201 (application/json)
+创建成功
+    
+    + Body
+        
+        {
+            "id":"id",
+            "name":"name",
+            "location":"location",
+            "description":"xxxx"
+        }
+
 ### 修改餐厅信息 [PUT]
 
 + Request (application/json)
@@ -162,19 +194,28 @@ Eat点点扫码点餐系统
     + Body
 
         {
+            "id":"id",
             "name": "kfc",
             "description": "fastfood"
         }
 
-### 餐厅菜单 [/restaurant/menu]
+## 餐厅菜单 [/menu/:{restaurantId}]
 
-#### 查看菜单 [GET]
+### 查看菜单 [GET]
 
-+ Response 200 (text/html)
++ Response 200 (application/json)
 
-        菜单
+    + Body
+    
+        {
+            foods:[
+                {},
+                {},
+                {}
+            ]
+        }
 
-#### 修改菜单 [POST]
+### 修改菜单 [POST]
 
 + Request (application/json)
 
@@ -204,6 +245,22 @@ Eat点点扫码点餐系统
     + Body
 
             提交成功
+
+## 菜单上的菜品 [/menu/:{foodId}]
+
+### 获取某一菜品的信息 [GET]
+
++ Response 200 (application/json)
+返回一个food 对象
+    + Body
+    
+        {
+        
+        }
+
+### 添加菜品 [POST]
+
+
 
 ## 订单 [/restaurant/orders]
 
