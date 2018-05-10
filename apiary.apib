@@ -252,6 +252,7 @@ Eat点点扫码点餐系统
 
 + Response 200 (application/json)
 返回一个food 对象
+
     + Body
     
         {
@@ -260,13 +261,63 @@ Eat点点扫码点餐系统
 
 ### 添加菜品 [POST]
 
++ Request (application/json)
+发送一个food 对象
+
+    + Body
+        
+        {
+            
+        }
+
+
++ Response 200 (application/json)
+创建成功，返回完整的food对象
+
+    + Body
+        
+        {
+
+        }
+
+### 编辑菜品 [PUT]
+
++ Request (application/json)
+发送一个完整的food对象
+
+    + Body
+    
+        {
+
+        }
+
++ Response 200 (application/json)
+修改成功，返回修改后的food对象，包括id
+
+    + Body
+    
+        {
+        
+        }
+
+
+### 删除菜品 [DELETE]
+
++ Response 200 (application/json)
+删除成功
+    
+    + Body
+        
+        {
+            "msg":"删除成功"
+        }
 
 
 ## 订单 [/restaurant/orders]
 
 ### 查看订单 [GET]
 
-+ Response 200 (text/html)
++ Response 200 (application/json)
 
         订单列表
 
