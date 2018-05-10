@@ -165,7 +165,8 @@ Eat点点扫码点餐系统
         
         {
             "name": "kfc",
-            "description": "fastfood"
+            "description": "fastfood",
+            "location":"location"
         }
 
 + Response 201 (application/json)
@@ -215,40 +216,10 @@ Eat点点扫码点餐系统
             ]
         }
 
-### 修改菜单 [POST]
-
-+ Request (application/json)
-
-        {
-            "operation": "add",
-            "foodName": "shit",
-            "foodDescription": "shit"
-        }
-
-+ Request (application/json)
-
-        {
-            "operation": "delete",
-            "foodName": "shit"
-        }
-
-+ Request (application/json)
-
-        {
-            "operation": "edit",
-            "foodName": "shit",
-            "foodDescription": "shit"
-        }
-
-+ Response 200 (text/html)
-
-    + Body
-
-            提交成功
-
-## 菜单上的菜品 [/menu/:{foodId}]
+## 菜单上的菜品 [/menu?restaurantId=?&foodId=?]
 
 ### 获取某一菜品的信息 [GET]
+某一餐厅的某一菜品的信息
 
 + Response 200 (application/json)
 返回一个food 对象
@@ -264,7 +235,7 @@ Eat点点扫码点餐系统
         }
 
 ### 添加菜品 [POST]
-
+为某一餐厅添加新菜品（无需指定foodId）
 + Request (application/json)
 发送一个food 对象
 
@@ -290,7 +261,9 @@ Eat点点扫码点餐系统
             "sales": "0"
         }
 
+
 ### 编辑菜品 [PUT]
+编辑某一餐厅的某一菜品
 
 + Request (application/json)
 发送一个完整的food对象
@@ -329,9 +302,10 @@ Eat点点扫码点餐系统
         }
 
 
-## 订单 [/restaurant/orders]
+## 订单 [/restaurant/orders?restaurantId=?&tableId=?]
 
 ### 查看订单 [GET]
+查看某一桌子的全部订单，若不指定tableId，则为当前餐厅的全部订单
 
 + Response 200 (application/json)
 
@@ -342,6 +316,7 @@ Eat点点扫码点餐系统
         ]
 
 ### 提交订单 [POST]
+需完整提供restaurantId和tableId，提交一个订单，返回订单提交成功后的订单详情
 
 + Request (application/json)
 
@@ -381,8 +356,8 @@ Eat点点扫码点餐系统
             order_time: "2018-01-01 11:11:11"
         }
             
-## 评论 [/restaurant/comments]
-
+## 评论 [/restaurant/comment?restaurantId=?]
+这部分处理对某一餐厅的评论，在之后需要加入资源的分页等
 ### 查看评论 [GET]
 
 + Response 200 (application/json)
@@ -411,8 +386,9 @@ Eat点点扫码点餐系统
             "comment_id": "111",
             "comment_content": "shit"
         }
-            
-## 库存 [/restaurant/stock]
+
+
+## 库存 [/restaurant/stock?restaurantId=?]
 
 ### 获取库存 [GET]
 
@@ -424,3 +400,28 @@ Eat点点扫码点餐系统
                 "howMany" : "666"
             }
         ]
+        
+        
+
+## 小程序端登陆 [/buyer/session]
+
+### 新建登录态 [POST]
+发送通过wx接口获取的login code和user info，session key将会保存在cookie中
+
++ Request (application/json)
+
+    + Body
+        
+        {
+            "code":"code",
+            "nickname":"nickname",
+            "avatorUrl": "avator_url"
+        }
+        
++ Response 200 (application/json)
+
+    + Body
+    
+        {
+            "msg":"登陆成功"
+        }
