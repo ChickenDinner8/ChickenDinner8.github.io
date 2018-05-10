@@ -256,7 +256,11 @@ Eat点点扫码点餐系统
     + Body
     
         {
-        
+            "food_id": "888",
+            "food_name": "chicken",
+            "description": "nice, nice",
+            "price": "888",
+            "sales": "50"
         }
 
 ### 添加菜品 [POST]
@@ -267,7 +271,9 @@ Eat点点扫码点餐系统
     + Body
         
         {
-            
+            "food_name": "chicken",
+            "description": "nice, nice",
+            "price": "888"
         }
 
 
@@ -277,7 +283,11 @@ Eat点点扫码点餐系统
     + Body
         
         {
-
+            "food_id": "888",
+            "food_name": "chicken",
+            "description": "nice, nice",
+            "price": "888",
+            "sales": "0"
         }
 
 ### 编辑菜品 [PUT]
@@ -288,7 +298,9 @@ Eat点点扫码点餐系统
     + Body
     
         {
-
+            "food_name": "chicken",
+            "description": "nice, nice",
+            "price": "888"
         }
 
 + Response 200 (application/json)
@@ -297,7 +309,11 @@ Eat点点扫码点餐系统
     + Body
     
         {
-        
+            "food_id": "888",
+            "food_name": "chicken",
+            "description": "nice, nice",
+            "price": "888",
+            "sales": "0"
         }
 
 
@@ -319,43 +335,82 @@ Eat点点扫码点餐系统
 
 + Response 200 (application/json)
 
-        订单列表
+        [
+            {},
+            {},
+            {}
+        ]
 
 ### 提交订单 [POST]
 
 + Request (application/json)
 
         {
+            foods: [
+                {
+                    "food_id": "111",
+                    "num": "1"
+                },
+                {
+                    "food_id":"222",
+                    "num":"2"
+                }
+            ],
+            table_id: "111",
+            customer_id: "111"
         }
 
 + Response 201 (text/html)
 
     + Body
 
-            提交成功
+        {
+            order_id: "666",
+            foods: [
+                {
+                    "food_id": "111",
+                    "num": "1"
+                },
+                {
+                    "food_id":"222",
+                    "num":"2"
+                }
+            ],
+            table_id: "111",
+            customer_id: "111",
+            order_time: "2018-01-01 11:11:11"
+        }
             
 ## 评论 [/restaurant/comments]
 
 ### 查看评论 [GET]
 
-+ Response 200 (text/html)
++ Response 200 (application/json)
 
-        评论列表
+        [
+            {
+                "comment_id": "111",
+                "comment_content": "shit"
+            },
+        ]
 
 ### 撰写评论 [POST]
 
 + Request (application/json)
 
         {
-            "userID": "666",
-            "comment": "shit"
+            "user_id": "666",
+            "comment_content": "shit"
         }
 
-+ Response 201 (text/html)
++ Response 201 (application/json)
 
     + Body
 
-            评论成功
+        {
+            "comment_id": "111",
+            "comment_content": "shit"
+        }
             
 ## 库存 [/restaurant/stock]
 
