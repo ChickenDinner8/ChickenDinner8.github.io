@@ -40,13 +40,13 @@ title: Home
 + 6、[Requirement specification（需求规格说明）](https://chickendinner8.github.io/2018/04/21/需求说明书.html)
     - 6.1 [Usecase Diagram（用例图）](https://chickendinner8.github.io/2018/05/09/6.1用例图.html)
     - 6.2 [Use Cases（用例+活动图）](https://chickendinner8.github.io/2018/05/09/6.2用例文本.html)
-    - 6.3 Domain Model（领域模型）
-    - 6.4 State Model（状态模型）
+    - 6.3 [Domain Model（领域模型）]()
+    - 6.4 [State Model（状态模型）]()
     - 6.5 [System Sequence Diagram（功能模型）]()   
 + 7、[Design（设计）](https://chickendinner8.github.io/2018/04/21/design.html)
-    - 7.1 UI design
-    - 7.2 Database design
-    - 7.3 API设计
+    - 7.1 [UI design]()
+    - 7.2 [Database design]()
+    - 7.3 [API设计]()
 + 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
 + X1 [meet_recording](https://chickendinner8.github.io/2018/04/11-meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
