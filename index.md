@@ -38,8 +38,8 @@ title: Home
 + 4、[Vision（项目愿景）](https://chickendinner8.github.io/2018/04/11/vision.html)
 + 5、[Product Backlog（产品特性）](https://chickendinner8.github.io/2018/04/11/backlog.html)
 + 6、[Requirement specification（需求规格说明）](https://chickendinner8.github.io/2018/04/21/需求说明书.html)
-    - [6.1 Usecase Diagram（用例图）](https://chickendinner8.github.io/2018/05/09/6.1用例图.html)
-    + [6.2 Use Cases（用例+活动图）](https://chickendinner8.github.io/2018/05/09/6.2%E7%94%A8%E4%BE%8B%E6%96%87%E6%9C%AC.html)
+    + [6.1 Usecase Diagram（用例图）](https://chickendinner8.github.io/2018/05/09/6.1用例图.html)
+    + [6.2 Use Cases（用例+活动图）](https://chickendinner8.github.io/2018/05/09/6.2用例文本.html)
     + 6.3 Domain Model（领域模型）
     + 6.4 State Model（状态模型）
 + 7、[Design（设计）](https://chickendinner8.github.io/2018/04/21/design.html)
