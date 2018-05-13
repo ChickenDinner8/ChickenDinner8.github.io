@@ -44,15 +44,9 @@ title: Home
     - 6.4 [State Model（状态模型）](https://chickendinner8.github.io/2018/05/13/6.4状态模型.html)
     - 6.5 [System Sequence Diagram（功能模型）](https://chickendinner8.github.io/2018/05/13/6.5系统顺序图.html)
 + 7、[Design（设计）](https://chickendinner8.github.io/2018/04/21/design.html)
-<<<<<<< HEAD
-    - 7.1 [UI design](https://chickendinner8.github.io/2018/04/21/UI-design.html)
-    - 7.2 [Database design](https://chickendinner8.github.io/2018/04/21/DB-design.html)
-    - 7.3 [API设计](https://chickendinner8.github.io/2018/04/21/API-design.html)
-=======
     - 7.1 [UI design](https://chickendinner8.github.io/2018/05/13/7.1UI-design.html)
     - 7.2 [Database design](https://chickendinner8.github.io/2018/05/13/7.2Database-design.html)
     - 7.3 [API设计](https://chickendinner8.github.io/2018/05/13/7.3API-design.html)
->>>>>>> 12cef6483f4b335f8a6fe574b2893f0385bd5aa0
 + 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
 + X1 [meet_recording](https://chickendinner8.github.io/2018/04/11-meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
