@@ -10,7 +10,7 @@ tags: document
 
 15331295 - wqy - [微信小程序学习日志](https://chickendinner8.github.io/2018/04/15/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%A6%E4%B9%A0%E6%97%A5%E5%BF%97.html)
 
-15331299 - wsj - [学习报告之微信小程序](https://chickendinner8.github.io/20/14/%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A%E4%B9%8B%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
+15331299 - wsj - [学习报告之微信小程序](https://chickendinner8.github.io/20dfgsd/14/%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A%E4%B9%8B%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
 
 15331305 - wzj - [学习报告之UI设计](https://chickendinner8.github.io/2018/04/15/%E5%AD%A6%E4%B9%A0%E6%8A%A5%E5%91%8A%E4%B9%8BUI%E8%AE%BE%E8%AE%A1.html)
 
