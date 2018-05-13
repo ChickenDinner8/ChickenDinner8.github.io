@@ -49,8 +49,8 @@ title: Home
 + 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
 + X1 [meet_recording](https://chickendinner8.github.io/2018/04/11-meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
-+ XX [建模练习]()
-    - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
-    - XX2 [建模要求]()
-    - XX3 [建模者答案与评价]()
++ XX 建模练习
+    - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
+    - XX2 [建模要求]()
+    - XX3 [建模者答案与评价]()
 </div>
