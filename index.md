@@ -52,6 +52,7 @@ title: Home
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
+          [建模练习业务文档pdf版本](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/pdf/%E5%BB%BA%E6%A8%A1%E7%BB%83%E4%B9%A0pdf%E7%89%88%E6%9C%AC.pdf)
     - XX2 [建模要求]()
     - XX3 [建模者答案与评价]()
 </div>
