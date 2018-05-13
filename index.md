@@ -42,6 +42,7 @@ title: Home
     - [6.2 Use Cases（用例+活动图）](https://chickendinner8.github.io/2018/05/09/6.2用例文本.html)
     - 6.3 Domain Model（领域模型）
     - 6.4 State Model（状态模型）
+    - 6.5 [System Sequence Diagram（功能模型）]()
 + 7、[Design（设计）](https://chickendinner8.github.io/2018/04/21/design.html)
     - 7.1 UI design
     - 7.2 Database design
