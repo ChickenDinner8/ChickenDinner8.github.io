@@ -48,10 +48,10 @@ title: Home
     - 7.2 [Database design](https://chickendinner8.github.io/2018/05/13/7.2Database-design.html)
     - 7.3 [API设计](https://chickendinner8.github.io/2018/05/13/7.3API-design.html)
 + 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
-+ X1 [meet_recording](https://chickendinner8.github.io/2018/04/11-meeting.html)
++ X1 [meet_recording](https://chickendinner8.github.io/2018/04/11/meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
-    - XX2 [建模要求]()
+    - XX2 [建模要求](https://chickendinner8.github.io/2018/05/13/XX2.html)
     - XX3 [建模者答案与评价](https://chickendinner8.github.io/2018/05/13/XX3Answer.html)
 </div>
