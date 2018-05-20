@@ -302,7 +302,7 @@ Eat点点扫码点餐系统
         }
 
 
-## 订单 [/restaurant/orders?restaurantId=?&tableId=?]
+## 订单 [/restaurant/orders?restaurant_id=?&table_id=?]
 
 ### 查看订单 [GET]
 查看某一桌子的全部订单，若不指定tableId，则为当前餐厅的全部订单
@@ -316,7 +316,7 @@ Eat点点扫码点餐系统
         ]
 
 ### 提交订单 [POST]
-需完整提供restaurantId和tableId，提交一个订单，返回订单提交成功后的订单详情
+需完整提供restaurant_id和table_id，提交一个订单，返回订单提交成功后的订单详情
 
 + Request (application/json)
 
@@ -330,8 +330,7 @@ Eat点点扫码点餐系统
                     "food_id":"222",
                     "num":"2"
                 }
-            ],
-            table_id: "111",
+            ]
             customer_id: "111"
         }
 
@@ -351,12 +350,13 @@ Eat点点扫码点餐系统
                     "num":"2"
                 }
             ],
+            restaurant_id: "666",
             table_id: "111",
             customer_id: "111",
             order_time: "2018-01-01 11:11:11"
         }
             
-## 评论 [/restaurant/comment?restaurantId=?]
+## 评论 [/restaurant/comment?restaurant_id=?]
 这部分处理对某一餐厅的评论，在之后需要加入资源的分页等
 ### 查看评论 [GET]
 
