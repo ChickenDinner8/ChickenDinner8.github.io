@@ -5,7 +5,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>50</x>
-      <y>20</y>
+      <y>30</y>
       <w>390</w>
       <h>120</h>
     </coordinates>
@@ -16,7 +16,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>50</x>
-      <y>190</y>
+      <y>200</y>
       <w>670</w>
       <h>130</h>
     </coordinates>
@@ -29,7 +29,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>50</x>
-      <y>380</y>
+      <y>390</y>
       <w>620</w>
       <h>140</h>
     </coordinates>
@@ -39,19 +39,8 @@
   <element>
     <id>UMLPackage</id>
     <coordinates>
-      <x>850</x>
-      <y>40</y>
-      <w>100</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>Name</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLPackage</id>
-    <coordinates>
       <x>70</x>
-      <y>50</y>
+      <y>60</y>
       <w>120</w>
       <h>70</h>
     </coordinates>
@@ -63,7 +52,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>250</x>
-      <y>50</y>
+      <y>60</y>
       <w>120</w>
       <h>70</h>
     </coordinates>
@@ -75,7 +64,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>60</x>
-      <y>230</y>
+      <y>240</y>
       <w>90</w>
       <h>70</h>
     </coordinates>
@@ -87,7 +76,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>170</x>
-      <y>230</y>
+      <y>240</y>
       <w>90</w>
       <h>70</h>
     </coordinates>
@@ -99,7 +88,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>300</x>
-      <y>230</y>
+      <y>240</y>
       <w>90</w>
       <h>70</h>
     </coordinates>
@@ -111,7 +100,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>430</x>
-      <y>230</y>
+      <y>240</y>
       <w>100</w>
       <h>70</h>
     </coordinates>
@@ -123,7 +112,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>80</x>
-      <y>430</y>
+      <y>440</y>
       <w>120</w>
       <h>70</h>
     </coordinates>
@@ -135,7 +124,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>570</x>
-      <y>230</y>
+      <y>240</y>
       <w>100</w>
       <h>70</h>
     </coordinates>
@@ -147,7 +136,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>260</x>
-      <y>430</y>
+      <y>440</y>
       <w>120</w>
       <h>70</h>
     </coordinates>
@@ -159,7 +148,7 @@
     <id>UMLPackage</id>
     <coordinates>
       <x>460</x>
-      <y>430</y>
+      <y>440</y>
       <w>120</w>
       <h>70</h>
     </coordinates>
