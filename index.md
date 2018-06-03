@@ -43,7 +43,7 @@ title: Home
     - 6.3 [Domain Model（领域模型）](https://chickendinner8.github.io/2018/05/13/6.3领域模型.html)
     - 6.4 [State Model（状态模型）](https://chickendinner8.github.io/2018/05/13/6.4状态模型.html)
     - 6.5 [System Sequence Diagram（功能模型）](https://chickendinner8.github.io/2018/05/13/6.5系统顺序图.html)
-    - 6.6 [Supplementary Requirements（补充需求）]()
+    - 6.6 [Supplementary Requirements（补充需求）](https://chickendinner8.github.io/2018/06/03/%E8%A1%A5%E5%85%85%E6%80%A7%E8%A7%84%E6%A0%BC%E8%AF%B4%E6%98%8E.html)
 + 7、Design（设计）
     - 7.1 [UI design](https://chickendinner8.github.io/2018/05/13/7.1UI-design.html)
     - 7.2 [Database design](https://chickendinner8.github.io/2018/05/13/7.2Database-design.html)
@@ -56,4 +56,4 @@ title: Home
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
     - XX2 [建模要求](https://chickendinner8.github.io/2018/05/13/XX2.html)
     - XX3 [建模者答案与评价](https://chickendinner8.github.io/2018/05/13/XX3Answer.html)
-</div>
+      </div>
