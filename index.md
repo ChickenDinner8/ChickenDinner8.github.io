@@ -56,4 +56,5 @@ title: Home
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
     - XX2 [建模要求](https://chickendinner8.github.io/2018/05/13/XX2.html)
     - XX3 [建模者答案与评价](https://chickendinner8.github.io/2018/05/13/XX3Answer.html)
-      </div>
+
+</div>
