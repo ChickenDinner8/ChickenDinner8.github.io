@@ -216,7 +216,7 @@ Eat点点扫码点餐系统
             ]
         }
 
-## 菜单上的菜品 [/menu?restaurantId=?&foodId=?]
+## 菜单上的菜品 [/food/:restaurantId/:foodId/]
 
 ### 获取某一菜品的信息 [GET]
 某一餐厅的某一菜品的信息
@@ -244,7 +244,9 @@ Eat点点扫码点餐系统
         {
             "food_name": "chicken",
             "description": "nice, nice",
-            "price": "888"
+            "price": "888",
+            "image":"baidu.com",
+            "priority":"1"
         }
 
 
@@ -254,11 +256,11 @@ Eat点点扫码点餐系统
     + Body
         
         {
-            "food_id": "888",
+            "food_id": 3,
             "food_name": "chicken",
             "description": "nice, nice",
             "price": "888",
-            "sales": "0"
+            "priority": "1"
         }
 
 
