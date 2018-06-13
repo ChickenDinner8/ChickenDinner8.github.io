@@ -312,9 +312,64 @@ Eat点点扫码点餐系统
 + Response 200 (application/json)
 
         [
-            {},
-            {},
-            {}
+            {
+                "order_id": 1,
+                "restaurant_id": 3,
+                "table_id": 2,
+                "customer_id": 1,
+                "order_time": "2018-06-13 03:22:32.757513+00:00",
+                "total_price": 2664,
+                "detail": []
+            },
+            {
+                "order_id": 2,
+                "restaurant_id": 3,
+                "table_id": 2,
+                "customer_id": 1,
+                "order_time": "2018-06-13 03:23:49.830117+00:00",
+                "total_price": 2664,
+                "detail": []
+            },
+            {
+                "order_id": 3,
+                "restaurant_id": 3,
+                "table_id": 2,
+                "customer_id": 1,
+                "order_time": "2018-06-13 03:24:33.263945+00:00",
+                "total_price": 2664,
+                "detail": [
+                    {
+                        "food": {
+                            "food_id": 1,
+                            "food_name": "chicken",
+                            "description": "nice, nice",
+                            "price": 888,
+                            "priority": 1
+                        },
+                        "num": 1
+                    },
+                    {
+                        "food": {
+                            "food_id": 2,
+                            "food_name": "chicken",
+                            "description": "nice, nice",
+                            "price": 888,
+                            "priority": 1
+                        },
+                        "num": 2
+                    },
+                    {
+                        "food": {
+                            "food_id": 4,
+                            "food_name": "chicken",
+                            "description": "nice, nice",
+                            "price": 888,
+                            "priority": 1
+                        },
+                        "num": 2
+                    }
+                ]
+            }
         ]
 
 ### 提交订单 [POST]
@@ -426,4 +481,16 @@ Eat点点扫码点餐系统
     
         {
             "msg":"登陆成功"
+        }
+        
+
+### 验证登陆态 [GET]
+验证是否登陆
+
++ Response 200 (application/json)
+
+    + Body
+    
+        {
+            "login": true
         }
