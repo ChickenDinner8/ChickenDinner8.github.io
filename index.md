@@ -52,10 +52,18 @@ title: Home
         - 7.2.x 第三方数据评审结果
     - 7.3 [API design](https://chickendinner8.github.io/2018/05/13/7.3API-design.html)
     - 7.4 [Software Architecture Document](https://chickendinner8.github.io/2018/06/03/7.4-SAD.html)    
-    - 7.5 [Usecase design]()     
+    - 7.5 [Usecase design]()  
+        - 7.5.1 xx case design
 + 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
+    - 8.1 [XX代码规范]()
+    - 8.2 [REST API 设计规范]()
+    - 8.3 [逻辑架构到应用程序映射指南]()
+    - 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用]()
 + X1 [meet_recording](https://chickendinner8.github.io/2018/04/11/meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
++ X3 Final Report
+    - [学号-title]()
+    - [学号-title]()
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
     - XX2 [建模要求](https://chickendinner8.github.io/2018/05/13/XX2.html)
