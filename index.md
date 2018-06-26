@@ -47,8 +47,12 @@ title: Home
 + 7、Design（设计）
     - 7.1 [UI design](https://chickendinner8.github.io/2018/05/13/7.1UI-design.html)
     - 7.2 [Database design](https://chickendinner8.github.io/2018/05/13/7.2Database-design.html)
-    - 7.3 [API设计](https://chickendinner8.github.io/2018/05/13/7.3API-design.html)
+        - 7.2.1 用户及权限系统数据库设计
+        - 7.2.2 XX子系统数据课设计
+        - 7.2.x 第三方数据评审结果
+    - 7.3 [API design](https://chickendinner8.github.io/2018/05/13/7.3API-design.html)
     - 7.4 [Software Architecture Document](https://chickendinner8.github.io/2018/06/03/7.4-SAD.html)    
+    - 7.5 [Usecase design]()     
 + 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
 + X1 [meet_recording](https://chickendinner8.github.io/2018/04/11/meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
