@@ -62,7 +62,7 @@ title: Home
 + X1 [meet_recording](https://chickendinner8.github.io/2018/04/11/meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
 + X3 Final Report
-    - [学号-title]()
+    - [15331310-WBW](https://bowenwu1.github.io/2018/06/30/2018-06-30-FinalReport/)
     - [学号-title]()
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
