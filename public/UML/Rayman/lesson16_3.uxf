@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLHierarchy</id>
+    <coordinates>
+      <x>250</x>
+      <y>40</y>
+      <w>260</w>
+      <h>410</h>
+    </coordinates>
+    <panel_attributes>type=Package
+视图层
+	Model：存储数据
+	View：渲染界面
+	Controller：交互逻辑
+业务层
+	查询旅馆、房间
+	存储旅客信息
+	确认付款
+	存储订单
+数据层
+	数据的CRUD</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
