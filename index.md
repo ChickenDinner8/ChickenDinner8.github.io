@@ -68,6 +68,7 @@ title: Home
     - [学号-title]()
     - [15331305-WZJ](https://blog.csdn.net/Llunnn/article/details/80870749)
     - [15331295-WQY](https://blog.csdn.net/pomelo_W/article/details/80870754)
+    - [15331370-YZH](https://cocaice.github.io/2018/06/30/2018-6-30-%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1FinalReport/)
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
     - XX2 [建模要求](https://chickendinner8.github.io/2018/05/13/XX2.html)
