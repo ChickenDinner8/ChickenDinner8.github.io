@@ -70,7 +70,7 @@ title: Home
     - [15331314-WLM](https://wulinman.github.io/2018/06/30/final-report/)
     - [15331370-YZH](https://cocaice.github.io/2018/06/30/2018-6-30-%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1FinalReport/)
     - [15331354-YJJ](https://blog.csdn.net/weixin_40280266/article/details/80870169)
-    - [15331354-WSJ](https://jocelynwsj.github.io/posts/2018-6-29-Personal-Report)
+    - [15331299-WSJ](https://jocelynwsj.github.io/posts/2018-6-29-Personal-Report)
     
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
