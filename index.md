@@ -52,8 +52,9 @@ title: Home
         - 7.2.x 第三方数据评审结果
     - 7.3 [API design](https://chickendinner8.github.io/2018/05/13/7.3API-design.html)
     - 7.4 [Software Architecture Document](https://chickendinner8.github.io/2018/06/03/7.4-SAD.html)    
-    - 7.5 [Usecase design]()  
-        - 7.5.1 xx case design
+    - 7.5 [Usecase design](https://chickendinner8.github.io/2018/06/29/7.5Use-Case-Design.html)  
+        - 7.5.1 Customer case design
+        - 7.5.2 Merchant case design
 + 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
     - 8.1 [XX代码规范]()
     - 8.2 [REST API 设计规范]()
