@@ -55,15 +55,16 @@ title: Home
     - 7.5 [Usecase design](https://chickendinner8.github.io/2018/06/29/7.5Use-Case-Design.html)  
         - 7.5.1 Customer case design
         - 7.5.2 Merchant case design
-+ 8、[生产规范与指南](https://chickendinner8.github.io/2018/04/15/生产规范与指南.html)
-    - 8.1 [XX代码规范]()
-    - 8.2 [REST API 设计规范]()
-    - 8.3 [逻辑架构到应用程序映射指南]()
-    - 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用]()
++ 8、生产规范与指南
+    - 8.1 [XX代码规范](https://chickendinner8.github.io/2018/06/30/8.1.html)
+    - 8.2 [REST API 设计规范](https://chickendinner8.github.io/2018/06/30/8.2.html)
+    - 8.3 [逻辑架构到应用程序映射指南](https://chickendinner8.github.io/2018/06/30/8.3.html)
+    - 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用](https://chickendinner8.github.io/2018/06/30/8.4.html)
 + X1 [meet_recording](https://chickendinner8.github.io/2018/04/11/meeting.html)
 + X2 [Tech/Work Report](https://chickendinner8.github.io/2018/04/11/work_report.html)
 + X3 Final Report
     - [15331310-WBW](https://bowenwu1.github.io/2018/06/30/2018-06-30-FinalReport/)
+    - [15331321-wyr](https://chickendinner8.github.io/2018/06/30/Rayman.html)
     - [学号-title]()
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
