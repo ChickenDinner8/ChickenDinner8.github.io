@@ -67,6 +67,7 @@ title: Home
     - [15331321-wyr](https://chickendinner8.github.io/2018/06/30/Rayman.html)
     - [学号-title]()
     - [15331305-WZJ](https://blog.csdn.net/Llunnn/article/details/80870749)
+    - [15331295-WQY](https://blog.csdn.net/pomelo_W/article/details/80870754)
 + XX 建模练习
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
     - XX2 [建模要求](https://chickendinner8.github.io/2018/05/13/XX2.html)
