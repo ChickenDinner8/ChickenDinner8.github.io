@@ -67,7 +67,7 @@ title: Home
     - [15331321-WYR](https://chickendinner8.github.io/2018/06/30/Rayman.html)
     - [15331305-WZJ](https://blog.csdn.net/Llunnn/article/details/80870749)
     - [15331295-WQY](https://blog.csdn.net/pomelo_W/article/details/80870754)
-    - [15331314-WLM](https://wulinman.github.io/2018/06/30/final-report/)
+    - [15331314-WLM](https://chickendinner8.github.io/2018/06/30/Lumman.html)
     - [15331370-YZH](https://cocaice.github.io/2018/06/30/2018-6-30-%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1FinalReport/)
     - [15331354-YJJ](https://blog.csdn.net/weixin_40280266/article/details/80870169)
     - [15331299-WSJ](https://jocelynwsj.github.io/posts/2018-6-29-Personal-Report)
