@@ -30,7 +30,7 @@ title: Home
 
 <div markdown="1">
 
-### 文档目录
+## 文档目录
 
 + 1、[About（项目规划）](https://chickendinner8.github.io/2018/04/15/plan.html)
 + 2、[Team profile（团队组建）](https://chickendinner8.github.io/2018/04/11/team_profile.html)
@@ -67,7 +67,7 @@ title: Home
     - [15331321-WYR](https://chickendinner8.github.io/2018/06/30/Rayman.html)
     - [15331305-WZJ](https://blog.csdn.net/Llunnn/article/details/80870749)
     - [15331295-WQY](https://blog.csdn.net/pomelo_W/article/details/80870754)
-    - [15331314-WLM](https://wulinman.github.io/2018/06/30/final-report/)
+    - [15331314-WLM](https://chickendinner8.github.io/2018/06/30/Lumman.html)
     - [15331370-YZH](https://cocaice.github.io/2018/06/30/2018-6-30-%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1FinalReport/)
     - [15331354-YJJ](https://blog.csdn.net/weixin_40280266/article/details/80870169)
     - [15331299-WSJ](https://jocelynwsj.github.io/posts/2018-6-29-Personal-Report)
@@ -76,5 +76,56 @@ title: Home
     - XX1 [笺笺应用](https://chickendinner8.github.io/2018/05/11/笺笺建模练习.html)
     - XX2 [建模要求](https://chickendinner8.github.io/2018/05/13/XX2.html)
     - XX3 [建模者答案与评价](https://chickendinner8.github.io/2018/05/13/XX3Answer.html)
+
+## DEMO
+### 1. 微信小程序客户端
+
+- 扫码进入**Eat点点**点餐系统
+
+![demo1.gif](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/lumman/demo1.gif?raw=true)
+
+
+
+- 从后台获取数据，加载并显示菜单
+
+![show menu](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/lumman/demo2.gif?raw=true)
+
+
+
+- 添加菜品到购物车、并对购物车中菜品进行增删
+
+![modify cart](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/lumman/demo3.gif?raw=true)
+
+
+
+- 确认订单并去支付
+
+![submit](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/lumman/demo4.gif?raw=true)
+
+### 2. 商家端
+
+- 商家登录
+
+![log in](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/Yang/Login.gif?raw=true)
+
+- 添加菜品
+
+![add dish](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/Yang/Add_New_Dish.gif?raw=true)
+
+- 删除菜品
+
+![remove dish](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/Yang/Delete_Dish.gif?raw=true)
+
+- 编辑菜品
+
+![edit dish](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/Yang/Edit_Dish.gif?raw=true)
+
+- 查看从小程序下单的订单
+
+![check order](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/Yang/Check_Order.gif?raw=true)
+
+- 为不同的餐桌生成二维码，提供给小程序扫码
+
+![remove dish](https://github.com/ChickenDinner8/ChickenDinner8.github.io/blob/master/public/img/Yang/Delete_Dish.gif?raw=true)
 
 </div>
